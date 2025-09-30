@@ -1,0 +1,32 @@
+name: Fetch API to JSON
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - ".github/workflows/fetch.yml"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch JSON via curl
+        run: |
+          set -e
+          curl -sS "https://3t.thelasttoko.workers.dev/frighdimi" -o data.json
+          test -s data.json || { echo "Empty data.json"; exit 1; }
+
+      - name: Commit if changed
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: data.json
+          commit-msg: "chore: update data.json from API"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
