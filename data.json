@@ -10,57 +10,57 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2025-10-08T17:28:56.072Z",
-    "updated_at_tehran": "2025-10-08T20:58:56+03:30"
+    "updated_at": "2025-10-08T17:39:02.912Z",
+    "updated_at_tehran": "2025-10-08T21:09:02+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
-    "value_toman_text": "۱۱۵,۷۵۰",
-    "value_toman_number": 115750,
-    "updated_at_text": "ساعت: ۲۰:۵۵ (به وقت تهران)",
-    "updated_at_en": "20:55",
+    "value_toman_text": "۱۱۵,۶۵۰",
+    "value_toman_number": 115650,
+    "updated_at_text": "ساعت: ۲۱:۰۵ (به وقت تهران)",
+    "updated_at_en": "21:05",
     "ok": true,
     "error": null
   },
   "eur": {
-    "raw": "1,346,800",
-    "value_irr": 1346800,
-    "value_toman": 134680,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_irr": null,
+    "value_toman": null,
+    "ok": false,
+    "error": "HTTP 404 fetching https://www.tgju.org/profile/price_eur"
   },
   "gold18": {
-    "raw": "114,070,000",
-    "value_irr": 114070000,
-    "value_toman": 11407000,
+    "raw": "113,180,000",
+    "value_irr": 113180000,
+    "value_toman": 11318000,
     "ok": true,
     "error": null
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": "$4,063.90",
-    "value_usd": 4063.9,
+    "raw": "$4,057.32",
+    "value_usd": 4057.32,
     "ok": true,
     "error": null
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": "$123,889.63",
-    "value_usd": 123889.63,
+    "raw": "$123,787.09",
+    "value_usd": 123787.09,
     "ok": true,
     "error": null
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": "$4,540.12",
-    "value_usd": 4540.12,
+    "raw": "$4,545.59",
+    "value_usd": 4545.59,
     "ok": true,
     "error": null
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": "$2.7448",
-    "value_usd": 2.7448,
+    "raw": "$2.7674",
+    "value_usd": 2.7674,
     "ok": true,
     "error": null
   }
