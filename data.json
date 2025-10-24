@@ -10,15 +10,15 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2025-10-24T20:01:03.602Z",
-    "updated_at_tehran": "2025-10-24T23:31:03+03:30"
+    "updated_at": "2025-10-24T20:24:18.981Z",
+    "updated_at_tehran": "2025-10-24T23:54:18+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
     "value_toman_text": "۱۰۸,۵۵۰",
     "value_toman_number": 108550,
-    "updated_at_text": "ساعت: ۲۳:۳۰ (به وقت تهران)",
-    "updated_at_en": "23:30",
+    "updated_at_text": "ساعت: ۲۳:۵۰ (به وقت تهران)",
+    "updated_at_en": "23:50",
     "ok": true,
     "error": null
   },
@@ -30,38 +30,38 @@
     "error": null
   },
   "gold18": {
-    "raw": "107,860,000",
-    "value_irr": 107860000,
-    "value_toman": 10786000,
+    "raw": "107,200,000",
+    "value_irr": 107200000,
+    "value_toman": 10720000,
     "ok": true,
     "error": null
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/xaut"
+    "raw": "$4,099.33",
+    "value_usd": 4099.33,
+    "ok": true,
+    "error": null
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/bitcoin"
+    "raw": "$110,820.97",
+    "value_usd": 110820.97,
+    "ok": true,
+    "error": null
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/ethereum"
+    "raw": "$3,943.48",
+    "value_usd": 3943.48,
+    "ok": true,
+    "error": null
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/toncoin"
+    "raw": "$2.1684",
+    "value_usd": 2.1684,
+    "ok": true,
+    "error": null
   }
 }
