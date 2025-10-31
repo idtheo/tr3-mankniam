@@ -10,57 +10,57 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2025-10-31T09:48:07.108Z",
-    "updated_at_tehran": "2025-10-31T13:18:07+03:30"
+    "updated_at": "2025-10-31T09:51:45.871Z",
+    "updated_at_tehran": "2025-10-31T13:21:45+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
     "value_toman_text": "۱۰۷,۴۰۰",
     "value_toman_number": 107400,
-    "updated_at_text": "ساعت: ۱۳:۱۵ (به وقت تهران)",
-    "updated_at_en": "13:15",
+    "updated_at_text": "ساعت: ۱۳:۲۰ (به وقت تهران)",
+    "updated_at_en": "13:20",
     "ok": true,
     "error": null
   },
   "eur": {
-    "raw": null,
-    "value_irr": null,
-    "value_toman": null,
-    "ok": false,
-    "error": "HTTP 404 fetching https://www.tgju.org/profile/price_eur"
+    "raw": "1,241,200",
+    "value_irr": 1241200,
+    "value_toman": 124120,
+    "ok": true,
+    "error": null
   },
   "gold18": {
-    "raw": null,
-    "value_irr": null,
-    "value_toman": null,
-    "ok": false,
-    "error": "HTTP 404 fetching https://www.tgju.org/profile/tgju_gold_irg18"
+    "raw": "104,340,000",
+    "value_irr": 104340000,
+    "value_toman": 10434000,
+    "ok": true,
+    "error": null
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": "$3,999.45",
-    "value_usd": 3999.45,
+    "raw": "$4,003.95",
+    "value_usd": 4003.95,
     "ok": true,
     "error": null
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": "$109,970.88",
-    "value_usd": 109970.88,
+    "raw": "$109,996.01",
+    "value_usd": 109996.01,
     "ok": true,
     "error": null
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": "$3,850.79",
-    "value_usd": 3850.79,
+    "raw": "$3,848.57",
+    "value_usd": 3848.57,
     "ok": true,
     "error": null
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": "$2.1558",
-    "value_usd": 2.1558,
+    "raw": "$2.1589",
+    "value_usd": 2.1589,
     "ok": true,
     "error": null
   }
