@@ -10,58 +10,58 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2025-11-05T16:17:34.664Z",
-    "updated_at_tehran": "2025-11-05T19:47:34+03:30"
+    "updated_at": "2025-11-05T16:44:42.002Z",
+    "updated_at_tehran": "2025-11-05T20:14:42+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
     "value_toman_text": "۱۰۷,۹۰۰",
     "value_toman_number": 107900,
-    "updated_at_text": "ساعت: ۱۹:۴۵ (به وقت تهران)",
-    "updated_at_en": "19:45",
+    "updated_at_text": "ساعت: ۲۰:۱۰ (به وقت تهران)",
+    "updated_at_en": "20:10",
     "ok": true,
     "error": null
   },
   "eur": {
-    "raw": "1,239,000",
-    "value_irr": 1239000,
-    "value_toman": 123900,
+    "raw": "1,238,100",
+    "value_irr": 1238100,
+    "value_toman": 123810,
     "ok": true,
     "error": null
   },
   "gold18": {
-    "raw": "104,480,000",
-    "value_irr": 104480000,
-    "value_toman": 10448000,
+    "raw": "104,710,000",
+    "value_irr": 104710000,
+    "value_toman": 10471000,
     "ok": true,
     "error": null
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/xaut"
+    "raw": "$3,971.77",
+    "value_usd": 3971.77,
+    "ok": true,
+    "error": null
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/bitcoin"
+    "raw": "$103,679.16",
+    "value_usd": 103679.16,
+    "ok": true,
+    "error": null
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/ethereum"
+    "raw": "$3,405.67",
+    "value_usd": 3405.67,
+    "ok": true,
+    "error": null
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/toncoin"
+    "raw": "$1.9493",
+    "value_usd": 1.9493,
+    "ok": true,
+    "error": null
   }
 }
