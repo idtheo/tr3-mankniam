@@ -10,57 +10,57 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2025-12-28T08:13:51.409Z",
-    "updated_at_tehran": "2025-12-28T11:43:51+03:30"
+    "updated_at": "2025-12-28T08:40:56.914Z",
+    "updated_at_tehran": "2025-12-28T12:10:56+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
-    "value_toman_text": "۱۴۱,۸۵۰",
-    "value_toman_number": 141850,
-    "updated_at_text": "ساعت: ۱۱:۴۰ (به وقت تهران)",
-    "updated_at_en": "11:40",
+    "value_toman_text": "۱۴۲,۱۰۰",
+    "value_toman_number": 142100,
+    "updated_at_text": "ساعت: ۱۲:۱۰ (به وقت تهران)",
+    "updated_at_en": "12:10",
     "ok": true,
     "error": null
   },
   "eur": {
-    "raw": null,
-    "value_irr": null,
-    "value_toman": null,
-    "ok": false,
-    "error": "HTTP 404 fetching https://www.tgju.org/profile/price_eur"
+    "raw": "1,670,800",
+    "value_irr": 1670800,
+    "value_toman": 167080,
+    "ok": true,
+    "error": null
   },
   "gold18": {
-    "raw": null,
-    "value_irr": null,
-    "value_toman": null,
-    "ok": false,
-    "error": "HTTP 404 fetching https://www.tgju.org/profile/tgju_gold_irg18"
+    "raw": "158,504,000",
+    "value_irr": 158504000,
+    "value_toman": 15850400,
+    "ok": true,
+    "error": null
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": "$4,545.59",
-    "value_usd": 4545.59,
+    "raw": "$4,544.50",
+    "value_usd": 4544.5,
     "ok": true,
     "error": null
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": "$87,767.96",
-    "value_usd": 87767.96,
+    "raw": "$87,927.24",
+    "value_usd": 87927.24,
     "ok": true,
     "error": null
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": "$2,941.87",
-    "value_usd": 2941.87,
+    "raw": "$2,944.23",
+    "value_usd": 2944.23,
     "ok": true,
     "error": null
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": "$1.6599",
-    "value_usd": 1.6599,
+    "raw": "$1.6595",
+    "value_usd": 1.6595,
     "ok": true,
     "error": null
   }
