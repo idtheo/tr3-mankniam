@@ -10,15 +10,15 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2026-01-22T21:52:40.955Z",
-    "updated_at_tehran": "2026-01-23T01:22:40+03:30"
+    "updated_at": "2026-01-22T22:01:23.919Z",
+    "updated_at_tehran": "2026-01-23T01:31:23+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
     "value_toman_text": "۱۴۰,۹۰۰",
     "value_toman_number": 140900,
-    "updated_at_text": "ساعت: ۰۱:۱۸ (به وقت تهران)",
-    "updated_at_en": "01:18",
+    "updated_at_text": "ساعت: ۰۱:۲۸ (به وقت تهران)",
+    "updated_at_en": "01:28",
     "ok": true,
     "error": null
   },
@@ -27,7 +27,7 @@
     "value_irr": null,
     "value_toman": null,
     "ok": false,
-    "error": "HTTP 522 fetching https://www.tgju.org/profile/price_eur"
+    "error": "HTTP 524 fetching https://www.tgju.org/profile/price_eur"
   },
   "gold18": {
     "raw": null,
