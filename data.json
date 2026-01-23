@@ -10,15 +10,15 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2026-01-23T18:25:16.154Z",
-    "updated_at_tehran": "2026-01-23T21:55:16+03:30"
+    "updated_at": "2026-01-23T18:54:50.998Z",
+    "updated_at_tehran": "2026-01-23T22:24:50+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
     "value_toman_text": "۱۴۰,۹۰۰",
     "value_toman_number": 140900,
-    "updated_at_text": "ساعت: ۲۱:۵۳ (به وقت تهران)",
-    "updated_at_en": "21:53",
+    "updated_at_text": "ساعت: ۲۲:۲۳ (به وقت تهران)",
+    "updated_at_en": "22:23",
     "ok": true,
     "error": null
   },
@@ -41,27 +41,27 @@
     "raw": null,
     "value_usd": null,
     "ok": false,
-    "error": "XAUT: parse price failed"
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/xaut"
   },
   "btc": {
     "label": "Bitcoin (USD)",
     "raw": null,
     "value_usd": null,
     "ok": false,
-    "error": "BTC: parse USD failed"
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/bitcoin"
   },
   "eth": {
     "label": "Ethereum (USD)",
     "raw": null,
     "value_usd": null,
     "ok": false,
-    "error": "ETH: parse USD failed"
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/ethereum"
   },
   "ton": {
     "label": "Toncoin (USD)",
     "raw": null,
     "value_usd": null,
     "ok": false,
-    "error": "TON: parse USD failed"
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/toncoin"
   }
 }
