@@ -10,15 +10,15 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2026-02-05T22:14:44.683Z",
-    "updated_at_tehran": "2026-02-06T01:44:44+03:30"
+    "updated_at": "2026-02-05T22:48:48.225Z",
+    "updated_at_tehran": "2026-02-06T02:18:48+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
     "value_toman_text": "۱۶۲,۲۰۰",
     "value_toman_number": 162200,
-    "updated_at_text": "ساعت: ۰۱:۴۰ (به وقت تهران)",
-    "updated_at_en": "01:40",
+    "updated_at_text": "ساعت: ۰۲:۱۵ (به وقت تهران)",
+    "updated_at_en": "02:15",
     "ok": true,
     "error": null
   },
@@ -30,38 +30,38 @@
     "error": null
   },
   "gold18": {
-    "raw": "197,661,000",
-    "value_irr": 197661000,
-    "value_toman": 19766100,
+    "raw": "197,631,000",
+    "value_irr": 197631000,
+    "value_toman": 19763100,
     "ok": true,
     "error": null
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": "$4,731.83",
-    "value_usd": 4731.83,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_usd": null,
+    "ok": false,
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/xaut"
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": "$63,435.82",
-    "value_usd": 63435.82,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_usd": null,
+    "ok": false,
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/bitcoin"
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": "$1,853.59",
-    "value_usd": 1853.59,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_usd": null,
+    "ok": false,
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/ethereum"
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": "$1.2664",
-    "value_usd": 1.2664,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_usd": null,
+    "ok": false,
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/toncoin"
   }
 }
