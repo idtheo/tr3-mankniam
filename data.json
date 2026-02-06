@@ -10,15 +10,15 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2026-02-05T23:58:50.497Z",
-    "updated_at_tehran": "2026-02-06T03:28:50+03:30"
+    "updated_at": "2026-02-06T01:53:18.042Z",
+    "updated_at_tehran": "2026-02-06T05:23:18+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
     "value_toman_text": "۱۶۲,۲۰۰",
     "value_toman_number": 162200,
-    "updated_at_text": "ساعت: ۰۳:۲۵ (به وقت تهران)",
-    "updated_at_en": "03:25",
+    "updated_at_text": "ساعت: ۰۵:۲۰ (به وقت تهران)",
+    "updated_at_en": "05:20",
     "ok": true,
     "error": null
   },
@@ -30,38 +30,38 @@
     "error": null
   },
   "gold18": {
-    "raw": "197,631,000",
-    "value_irr": 197631000,
-    "value_toman": 19763100,
+    "raw": "197,621,000",
+    "value_irr": 197621000,
+    "value_toman": 19762100,
     "ok": true,
     "error": null
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/xaut"
+    "raw": "$4,683.43",
+    "value_usd": 4683.43,
+    "ok": true,
+    "error": null
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/bitcoin"
+    "raw": "$65,178.89",
+    "value_usd": 65178.89,
+    "ok": true,
+    "error": null
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/ethereum"
+    "raw": "$1,929.88",
+    "value_usd": 1929.88,
+    "ok": true,
+    "error": null
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "HTTP 429 fetching https://www.coindesk.com/price/toncoin"
+    "raw": "$1.2572",
+    "value_usd": 1.2572,
+    "ok": true,
+    "error": null
   }
 }
