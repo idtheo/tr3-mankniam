@@ -10,57 +10,57 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2026-02-10T08:27:13.766Z",
-    "updated_at_tehran": "2026-02-10T11:57:13+03:30"
+    "updated_at": "2026-02-10T09:29:41.054Z",
+    "updated_at_tehran": "2026-02-10T12:59:41+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
-    "value_toman_text": "۱۶۲,۸۰۰",
-    "value_toman_number": 162800,
-    "updated_at_text": "ساعت: ۱۱:۵۵ (به وقت تهران)",
-    "updated_at_en": "11:55",
+    "value_toman_text": "۱۶۲,۲۰۰",
+    "value_toman_number": 162200,
+    "updated_at_text": "ساعت: ۱۲:۵۵ (به وقت تهران)",
+    "updated_at_en": "12:55",
     "ok": true,
     "error": null
   },
   "eur": {
-    "raw": null,
-    "value_irr": null,
-    "value_toman": null,
-    "ok": false,
-    "error": "HTTP 404 fetching https://www.tgju.org/profile/price_eur"
+    "raw": "1,935,700",
+    "value_irr": 1935700,
+    "value_toman": 193570,
+    "ok": true,
+    "error": null
   },
   "gold18": {
-    "raw": "197,621,000",
-    "value_irr": 197621000,
-    "value_toman": 19762100,
+    "raw": "197,671,000",
+    "value_irr": 197671000,
+    "value_toman": 19767100,
     "ok": true,
     "error": null
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": "$5,007.20",
-    "value_usd": 5007.2,
+    "raw": "$5,027.07",
+    "value_usd": 5027.07,
     "ok": true,
     "error": null
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": "$69,029.77",
-    "value_usd": 69029.77,
+    "raw": "$69,279.63",
+    "value_usd": 69279.63,
     "ok": true,
     "error": null
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": "$2,012.27",
-    "value_usd": 2012.27,
+    "raw": "$2,023.20",
+    "value_usd": 2023.2,
     "ok": true,
     "error": null
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": "$1.3520",
-    "value_usd": 1.352,
+    "raw": "$1.3672",
+    "value_usd": 1.3672,
     "ok": true,
     "error": null
   }
