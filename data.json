@@ -10,22 +10,22 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2026-02-17T17:15:03.767Z",
-    "updated_at_tehran": "2026-02-17T20:45:03+03:30"
+    "updated_at": "2026-02-17T18:06:44.491Z",
+    "updated_at_tehran": "2026-02-17T21:36:44+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
-    "value_toman_text": "۱۶۰,۹۰۰",
-    "value_toman_number": 160900,
-    "updated_at_text": "ساعت: ۲۰:۴۰ (به وقت تهران)",
-    "updated_at_en": "20:40",
+    "value_toman_text": "۱۶۱,۱۰۰",
+    "value_toman_number": 161100,
+    "updated_at_text": "ساعت: ۲۱:۳۵ (به وقت تهران)",
+    "updated_at_en": "21:35",
     "ok": true,
     "error": null
   },
   "eur": {
-    "raw": "1,898,400",
-    "value_irr": 1898400,
-    "value_toman": 189840,
+    "raw": "1,903,100",
+    "value_irr": 1903100,
+    "value_toman": 190310,
     "ok": true,
     "error": null
   },
@@ -38,30 +38,30 @@
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": "$4,845.67",
-    "value_usd": 4845.67,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_usd": null,
+    "ok": false,
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/xaut"
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": "$67,241.01",
-    "value_usd": 67241.01,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_usd": null,
+    "ok": false,
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/bitcoin"
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": "$1,966.55",
-    "value_usd": 1966.55,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_usd": null,
+    "ok": false,
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/ethereum"
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": "$1.4174",
-    "value_usd": 1.4174,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_usd": null,
+    "ok": false,
+    "error": "HTTP 429 fetching https://www.coindesk.com/price/toncoin"
   }
 }
