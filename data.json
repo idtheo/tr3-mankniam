@@ -1,1 +1,67 @@
-error code: 1102
+{
+  "meta": {
+    "source": "AlanChand USD | TGJU & CoinDesk for others",
+    "endpoints": {
+      "usd": "https://alanchand.com/currencies-price/usd",
+      "eur": "https://www.tgju.org/profile/price_eur",
+      "gold18": "https://www.tgju.org/profile/tgju_gold_irg18",
+      "ounce_usd_from_xaut": "https://www.coindesk.com/price/xaut",
+      "btc_usd": "https://www.coindesk.com/price/bitcoin",
+      "eth_usd": "https://www.coindesk.com/price/ethereum",
+      "ton_usd": "https://www.coindesk.com/price/toncoin"
+    },
+    "updated_at": "2026-03-15T20:47:32.200Z",
+    "updated_at_tehran": "2026-03-16T00:17:32+03:30"
+  },
+  "usd": {
+    "label": "USD Free Market (Toman)",
+    "value_toman_text": "۱۴۵,۹۵۰",
+    "value_toman_number": 145950,
+    "updated_at_text": "ساعت: ۰۰:۱۷ (به وقت تهران)",
+    "updated_at_en": "00:17",
+    "ok": true,
+    "error": null
+  },
+  "eur": {
+    "raw": "1,660,000",
+    "value_irr": 1660000,
+    "value_toman": 166000,
+    "ok": true,
+    "error": null
+  },
+  "gold18": {
+    "raw": "197,631,000",
+    "value_irr": 197631000,
+    "value_toman": 19763100,
+    "ok": true,
+    "error": null
+  },
+  "ons": {
+    "label": "Gold Ounce (USD from XAUT)",
+    "raw": "$4,962.12",
+    "value_usd": 4962.12,
+    "ok": true,
+    "error": null
+  },
+  "btc": {
+    "label": "Bitcoin (USD)",
+    "raw": "$71,778.62",
+    "value_usd": 71778.62,
+    "ok": true,
+    "error": null
+  },
+  "eth": {
+    "label": "Ethereum (USD)",
+    "raw": "$2,129.51",
+    "value_usd": 2129.51,
+    "ok": true,
+    "error": null
+  },
+  "ton": {
+    "label": "Toncoin (USD)",
+    "raw": "$1.3077",
+    "value_usd": 1.3077,
+    "ok": true,
+    "error": null
+  }
+}
