@@ -10,57 +10,57 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2026-05-04T13:12:32.260Z",
-    "updated_at_tehran": "2026-05-04T16:42:32+03:30"
+    "updated_at": "2026-05-04T15:19:15.216Z",
+    "updated_at_tehran": "2026-05-04T18:49:15+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
-    "value_toman_text": "۱۹۱,۷۵۰",
-    "value_toman_number": 191750,
-    "updated_at_text": "ساعت: ۱۶:۴۰ (به وقت تهران)",
-    "updated_at_en": "16:40",
+    "value_toman_text": "۱۹۱,۴۰۰",
+    "value_toman_number": 191400,
+    "updated_at_text": "ساعت: ۱۸:۴۵ (به وقت تهران)",
+    "updated_at_en": "18:45",
     "ok": true,
     "error": null
   },
   "eur": {
-    "raw": "2,218,800",
-    "value_irr": 2218800,
-    "value_toman": 221880,
+    "raw": "2,225,700",
+    "value_irr": 2225700,
+    "value_toman": 222570,
     "ok": true,
     "error": null
   },
   "gold18": {
-    "raw": "197,621,000",
-    "value_irr": 197621000,
-    "value_toman": 19762100,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_irr": null,
+    "value_toman": null,
+    "ok": false,
+    "error": "HTTP 500 fetching https://www.tgju.org/profile/tgju_gold_irg18"
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": "$4,550.78",
-    "value_usd": 4550.78,
+    "raw": "$4,553.87",
+    "value_usd": 4553.87,
     "ok": true,
     "error": null
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": "$78,894.68",
-    "value_usd": 78894.68,
+    "raw": "$80,033.04",
+    "value_usd": 80033.04,
     "ok": true,
     "error": null
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": "$2,337.32",
-    "value_usd": 2337.32,
+    "raw": "$2,364.04",
+    "value_usd": 2364.04,
     "ok": true,
     "error": null
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": "$1.3693",
-    "value_usd": 1.3693,
+    "raw": "$1.3741",
+    "value_usd": 1.3741,
     "ok": true,
     "error": null
   }
