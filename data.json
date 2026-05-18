@@ -10,31 +10,31 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2026-05-18T02:45:02.640Z",
-    "updated_at_tehran": "2026-05-18T06:15:02+03:30"
+    "updated_at": "2026-05-18T06:39:33.322Z",
+    "updated_at_tehran": "2026-05-18T10:09:33+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
-    "value_toman_text": "۱۸۰,۳۰۰",
-    "value_toman_number": 180300,
-    "updated_at_text": "ساعت: ۰۶:۱۰ (به وقت تهران)",
-    "updated_at_en": "06:10",
+    "value_toman_text": "۱۸۰,۲۰۰",
+    "value_toman_number": 180200,
+    "updated_at_text": "ساعت: ۱۰:۰۵ (به وقت تهران)",
+    "updated_at_en": "10:05",
     "ok": true,
     "error": null
   },
   "eur": {
-    "raw": "2,092,400",
-    "value_irr": 2092400,
-    "value_toman": 209240,
+    "raw": "2,110,200",
+    "value_irr": 2110200,
+    "value_toman": 211020,
     "ok": true,
     "error": null
   },
   "gold18": {
-    "raw": null,
-    "value_irr": null,
-    "value_toman": null,
-    "ok": false,
-    "error": "HTTP 522 fetching https://www.tgju.org/profile/tgju_gold_irg18"
+    "raw": "197,691,000",
+    "value_irr": 197691000,
+    "value_toman": 19769100,
+    "ok": true,
+    "error": null
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
