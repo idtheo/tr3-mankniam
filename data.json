@@ -10,57 +10,57 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2026-06-05T10:10:23.168Z",
-    "updated_at_tehran": "2026-06-05T13:40:23+03:30"
+    "updated_at": "2026-06-05T12:50:18.235Z",
+    "updated_at_tehran": "2026-06-05T16:20:18+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
     "value_toman_text": "۱۷۶,۰۰۰",
     "value_toman_number": 176000,
-    "updated_at_text": "ساعت: ۱۳:۴۰ (به وقت تهران)",
-    "updated_at_en": "13:40",
+    "updated_at_text": "ساعت: ۱۶:۱۵ (به وقت تهران)",
+    "updated_at_en": "16:15",
     "ok": true,
     "error": null
   },
   "eur": {
-    "raw": "2,020,000",
-    "value_irr": 2020000,
-    "value_toman": 202000,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_irr": null,
+    "value_toman": null,
+    "ok": false,
+    "error": "HTTP 404 fetching https://www.tgju.org/profile/price_eur"
   },
   "gold18": {
-    "raw": "197,711,000",
-    "value_irr": 197711000,
-    "value_toman": 19771100,
-    "ok": true,
-    "error": null
+    "raw": null,
+    "value_irr": null,
+    "value_toman": null,
+    "ok": false,
+    "error": "HTTP 404 fetching https://www.tgju.org/profile/tgju_gold_irg18"
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": "$4,436.47",
-    "value_usd": 4436.47,
+    "raw": "$4,438.84",
+    "value_usd": 4438.84,
     "ok": true,
     "error": null
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": "$62,646.02",
-    "value_usd": 62646.02,
+    "raw": "$61,905.42",
+    "value_usd": 61905.42,
     "ok": true,
     "error": null
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": "$1,675.09",
-    "value_usd": 1675.09,
+    "raw": "$1,654.71",
+    "value_usd": 1654.71,
     "ok": true,
     "error": null
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": "$1.5587",
-    "value_usd": 1.5587,
+    "raw": "$1.5277",
+    "value_usd": 1.5277,
     "ok": true,
     "error": null
   }
