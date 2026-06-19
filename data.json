@@ -10,15 +10,15 @@
       "eth_usd": "https://www.coindesk.com/price/ethereum",
       "ton_usd": "https://www.coindesk.com/price/toncoin"
     },
-    "updated_at": "2026-06-19T11:42:23.856Z",
-    "updated_at_tehran": "2026-06-19T15:12:23+03:30"
+    "updated_at": "2026-06-19T14:26:51.340Z",
+    "updated_at_tehran": "2026-06-19T17:56:51+03:30"
   },
   "usd": {
     "label": "USD Free Market (Toman)",
-    "value_toman_text": "۱۶۱,۰۰۰",
-    "value_toman_number": 161000,
-    "updated_at_text": "ساعت: ۱۵:۱۰ (به وقت تهران)",
-    "updated_at_en": "15:10",
+    "value_toman_text": "۱۶۰,۰۰۰",
+    "value_toman_number": 160000,
+    "updated_at_text": "ساعت: ۱۷:۵۵ (به وقت تهران)",
+    "updated_at_en": "17:55",
     "ok": true,
     "error": null
   },
@@ -30,37 +30,37 @@
     "error": null
   },
   "gold18": {
-    "raw": "161,601,000",
-    "value_irr": 161601000,
-    "value_toman": 16160100,
+    "raw": "159,751,000",
+    "value_irr": 159751000,
+    "value_toman": 15975100,
     "ok": true,
     "error": null
   },
   "ons": {
     "label": "Gold Ounce (USD from XAUT)",
-    "raw": "$4,130.61",
-    "value_usd": 4130.61,
+    "raw": "$4,152.40",
+    "value_usd": 4152.4,
     "ok": true,
     "error": null
   },
   "btc": {
     "label": "Bitcoin (USD)",
-    "raw": "$62,563.53",
-    "value_usd": 62563.53,
+    "raw": "$63,149.34",
+    "value_usd": 63149.34,
     "ok": true,
     "error": null
   },
   "eth": {
     "label": "Ethereum (USD)",
-    "raw": "$1,690.58",
-    "value_usd": 1690.58,
+    "raw": "$1,701.25",
+    "value_usd": 1701.25,
     "ok": true,
     "error": null
   },
   "ton": {
     "label": "Toncoin (USD)",
-    "raw": "$1.6133",
-    "value_usd": 1.6133,
+    "raw": "$1.6178",
+    "value_usd": 1.6178,
     "ok": true,
     "error": null
   }
