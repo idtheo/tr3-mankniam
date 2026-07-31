@@ -1,41 +1,41 @@
 {
   "meta": {
-    "source": "CoinGecko (primary) + CryptoCompare (fallback) JSON API",
+    "source": "Binance (primary) + OKX / Coinbase / CryptoCompare fallback; gold via Binance PAXG + GitHub JSON",
     "symbols": {
-      "oz": "tether-gold (XAUT)",
-      "btc": "bitcoin",
-      "eth": "ethereum",
-      "gram": "the-open-network (Gram / prev. Toncoin)"
+      "oz": "PAXG / gold ounce (XAUT-equiv)",
+      "btc": "BTCUSDT",
+      "eth": "ETHUSDT",
+      "gram": "TONUSDT (Gram / prev. Toncoin)"
     },
-    "updated_at": "2026-07-31T14:10:14.811Z",
-    "updated_at_tehran": "2026-07-31T17:40:14+03:30"
+    "updated_at": "2026-07-31T16:08:48.488Z",
+    "updated_at_tehran": "2026-07-31T19:38:48+03:30"
   },
   "oz": {
     "label": "Gold Ounce (XAUT)",
-    "value_usd": null,
-    "raw": null,
-    "ok": false,
-    "error": "XAUT: price unavailable"
+    "value_usd": 4045,
+    "raw": "$4,045.00",
+    "ok": true,
+    "error": null
   },
   "btc": {
     "label": "Bitcoin",
-    "value_usd": null,
-    "raw": null,
-    "ok": false,
-    "error": "BTC: price unavailable"
+    "value_usd": 62833.3,
+    "raw": "$62,833.30",
+    "ok": true,
+    "error": null
   },
   "eth": {
     "label": "Ethereum",
-    "value_usd": null,
-    "raw": null,
-    "ok": false,
-    "error": "ETH: price unavailable"
+    "value_usd": 1863.92,
+    "raw": "$1,863.92",
+    "ok": true,
+    "error": null
   },
   "gram": {
     "label": "Gram (prev. Toncoin)",
-    "value_usd": null,
-    "raw": null,
-    "ok": false,
-    "error": "GRAM: price unavailable"
+    "value_usd": 1.3835,
+    "raw": "$1.3835",
+    "ok": true,
+    "error": null
   }
 }
