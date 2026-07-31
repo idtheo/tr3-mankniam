@@ -1,67 +1,41 @@
 {
   "meta": {
-    "source": "AlanChand USD | TGJU & CoinDesk for others",
+    "source": "CoinDesk price pages (scraped)",
     "endpoints": {
-      "usd": "https://alanchand.com/currencies-price/usd",
-      "eur": "https://www.tgju.org/profile/price_eur",
-      "gold18": "https://www.tgju.org/profile/tgju_gold_irg18",
-      "ounce_usd_from_xaut": "https://www.coindesk.com/price/xaut",
-      "btc_usd": "https://www.coindesk.com/price/bitcoin",
-      "eth_usd": "https://www.coindesk.com/price/ethereum",
-      "ton_usd": "https://www.coindesk.com/price/toncoin"
+      "oz": "https://www.coindesk.com/price/xaut",
+      "btc": "https://www.coindesk.com/price/bitcoin",
+      "eth": "https://www.coindesk.com/price/ethereum",
+      "gram": "https://www.coindesk.com/price/gram"
     },
-    "updated_at": "2026-07-31T07:23:12.288Z",
-    "updated_at_tehran": "2026-07-31T10:53:12+03:30"
+    "updated_at": "2026-07-31T10:01:00.696Z",
+    "updated_at_tehran": "2026-07-31T13:31:00+03:30"
   },
-  "usd": {
-    "label": "USD Free Market (Toman)",
-    "value_toman_text": "۱۹۲,۴۰۰",
-    "value_toman_number": 192400,
-    "updated_at_text": "۱۰:۵۰ جمعه ۹ مرداد ۱۴۰۵",
-    "updated_at_en": null,
-    "ok": true,
-    "error": null
-  },
-  "eur": {
-    "raw": "2,198,800",
-    "value_irr": 2198800,
-    "value_toman": 219880,
-    "ok": true,
-    "error": null
-  },
-  "gold18": {
-    "raw": "197,681,000",
-    "value_irr": 197681000,
-    "value_toman": 19768100,
-    "ok": true,
-    "error": null
-  },
-  "ons": {
-    "label": "Gold Ounce (USD from XAUT)",
-    "raw": "$4,066.31",
-    "value_usd": 4066.31,
+  "oz": {
+    "label": "Gold Ounce (XAUT)",
+    "value_usd": 4042.88,
+    "raw": "$4,042.88",
     "ok": true,
     "error": null
   },
   "btc": {
-    "label": "Bitcoin (USD)",
-    "raw": "$63,969.52",
-    "value_usd": 63969.52,
+    "label": "Bitcoin",
+    "value_usd": 63639.24,
+    "raw": "$63,639.24",
     "ok": true,
     "error": null
   },
   "eth": {
-    "label": "Ethereum (USD)",
-    "raw": "$1,886.58",
-    "value_usd": 1886.58,
+    "label": "Ethereum",
+    "value_usd": 1881.5,
+    "raw": "$1,881.50",
     "ok": true,
     "error": null
   },
-  "ton": {
-    "label": "Toncoin (USD)",
-    "raw": null,
-    "value_usd": null,
-    "ok": false,
-    "error": "TON: parse USD failed"
+  "gram": {
+    "label": "Gram (prev. Toncoin)",
+    "value_usd": 1389,
+    "raw": "$1,389.0000",
+    "ok": true,
+    "error": null
   }
 }
