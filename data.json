@@ -1,41 +1,41 @@
 {
   "meta": {
-    "source": "CoinDesk price pages (scraped)",
-    "endpoints": {
-      "oz": "https://www.coindesk.com/price/xaut",
-      "btc": "https://www.coindesk.com/price/bitcoin",
-      "eth": "https://www.coindesk.com/price/ethereum",
-      "gram": "https://www.coindesk.com/price/gram"
+    "source": "CoinGecko (primary) + CryptoCompare (fallback) JSON API",
+    "symbols": {
+      "oz": "tether-gold (XAUT)",
+      "btc": "bitcoin",
+      "eth": "ethereum",
+      "gram": "the-open-network (Gram / prev. Toncoin)"
     },
-    "updated_at": "2026-07-31T10:01:00.696Z",
-    "updated_at_tehran": "2026-07-31T13:31:00+03:30"
+    "updated_at": "2026-07-31T12:00:14.806Z",
+    "updated_at_tehran": "2026-07-31T15:30:14+03:30"
   },
   "oz": {
     "label": "Gold Ounce (XAUT)",
-    "value_usd": 4042.88,
-    "raw": "$4,042.88",
-    "ok": true,
-    "error": null
+    "value_usd": null,
+    "raw": null,
+    "ok": false,
+    "error": "XAUT: price unavailable"
   },
   "btc": {
     "label": "Bitcoin",
-    "value_usd": 63639.24,
-    "raw": "$63,639.24",
-    "ok": true,
-    "error": null
+    "value_usd": null,
+    "raw": null,
+    "ok": false,
+    "error": "BTC: price unavailable"
   },
   "eth": {
     "label": "Ethereum",
-    "value_usd": 1881.5,
-    "raw": "$1,881.50",
-    "ok": true,
-    "error": null
+    "value_usd": null,
+    "raw": null,
+    "ok": false,
+    "error": "ETH: price unavailable"
   },
   "gram": {
     "label": "Gram (prev. Toncoin)",
-    "value_usd": 1389,
-    "raw": "$1,389.0000",
-    "ok": true,
-    "error": null
+    "value_usd": null,
+    "raw": null,
+    "ok": false,
+    "error": "GRAM: price unavailable"
   }
 }
