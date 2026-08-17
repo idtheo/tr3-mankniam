@@ -7,34 +7,34 @@
       "eth": "ETHUSDT",
       "gram": "TONUSDT (Gram / prev. Toncoin)"
     },
-    "updated_at": "2026-08-17T15:29:56.106Z",
-    "updated_at_tehran": "2026-08-17T18:59:56+03:30"
+    "updated_at": "2026-08-17T15:49:23.244Z",
+    "updated_at_tehran": "2026-08-17T19:19:23+03:30"
   },
   "oz": {
     "label": "Gold Ounce (XAUT)",
-    "value_usd": null,
-    "raw": null,
-    "ok": false,
-    "error": "XAUT: price unavailable (HTTP 401)"
+    "value_usd": 4420,
+    "raw": "$4,420.00",
+    "ok": true,
+    "error": null
   },
   "btc": {
     "label": "Bitcoin",
-    "value_usd": 64055.6,
-    "raw": "$64,055.60",
+    "value_usd": 64175.8,
+    "raw": "$64,175.80",
     "ok": true,
     "error": null
   },
   "eth": {
     "label": "Ethereum",
-    "value_usd": 1909.97,
-    "raw": "$1,909.97",
+    "value_usd": 1912.92,
+    "raw": "$1,912.92",
     "ok": true,
     "error": null
   },
   "gram": {
     "label": "Gram (prev. Toncoin)",
-    "value_usd": 1.3274,
-    "raw": "$1.3274",
+    "value_usd": 1.3281,
+    "raw": "$1.3281",
     "ok": true,
     "error": null
   }
